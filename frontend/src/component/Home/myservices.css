@@ -1,0 +1,115 @@
+.services{
+    width: 100%;
+    margin-top: 10%;
+    align-items: center;
+    text-align: center;
+     color: rgb(91, 91, 128)
+}
+.service{
+    margin-top: 5%;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.paper1{
+    width: 50%;
+    align-items: center;
+}
+.paper2{
+    width: 50%;
+    align-items: center;
+}
+.paper11{
+    width: 70%;
+    margin-left: 10%;
+    height: 250px;
+    text-align: center;
+}
+.paper11:hover{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    
+}
+.paper11 h1{
+    color: rgb(94, 80, 80);
+    font-weight: 900;
+}
+.paper11 p{
+font-weight: 600;
+color: rgb(63, 151, 142);
+font-size: larger;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.paper22{
+    width: 70%;
+    margin-left: 10%;
+    height: 250px;
+    text-align: center;
+}
+.paper22:hover{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.paper22 h1{
+    color: rgb(94, 80, 80);
+    font-weight: 900;
+}
+.paper22 p{
+    font-weight: 600;
+    color: rgb(63, 151, 142);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media only screen and (max-width: 600px){
+    .myservicesmain{
+        width: 100%;
+    }
+    .services{
+        width: 100%;
+        height: auto;
+    }
+    .service{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service .paper1{
+        width: 80%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .paper1 .paper11{
+      width: 80%;
+      height: 30vh;
+      text-align: center;
+      align-items: center;
+    }
+    
+    .paper11 h1{
+        margin-top: 15%;
+    }
+    .paper11 p{
+        margin-top: 15%;
+    }
+    .paper2{
+        width: 80%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .paper22{
+        width: 80%;
+        height: 30vh;
+        text-align: center;
+        align-items: center;
+      }
+      .paper22 h1{
+    
+      }
+      .paper22 p{
+          margin-top:15%;
+      }
+    
+}
+

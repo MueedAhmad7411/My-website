@@ -1,0 +1,88 @@
+.home{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.home1{
+    width: 50%;
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.iconlocation{
+    color: red;
+}
+.companyname{
+    color: rgb(119, 107, 107);
+}
+.home11{
+    height: auto;
+    margin-left: 20%;
+    margin-top: 10%;
+
+}
+.mydetail{
+    color: rgb(63, 151, 142);
+    font-size: 1.5rem;
+}
+.home2{
+    width:50%;
+    align-items: center;
+}
+.pic{
+   width: 80%;
+   height: 90%;
+   margin: 5% 10%;
+   border-radius: 50%;
+   background-image: url("../../photos/mueed.jpg");
+   background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px){
+    .home{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;  
+    }
+    .home1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .home11{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -1%;
+   }
+   .name{
+    width: 50%;
+    display: flex;
+    margin-left: 25%;
+}.name .iconlocation{
+    margin-left: 13%;
+}
+
+   .mydetail{
+    width:70%;
+    margin-left: 35%;
+    font-size: large;
+   }
+
+   .home2{
+    display: none;
+   }
+   .pic{
+    display: none;
+   }
+.mydetail{
+    position: relative;
+    left: -20%;
+    text-align: center;
+}
+}

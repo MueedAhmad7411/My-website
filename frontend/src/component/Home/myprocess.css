@@ -1,0 +1,61 @@
+.myprocess{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.myprocess_left{
+width: 50%;
+margin-top: 20%;
+height: auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+}
+.myprocess p{
+    margin-top: 5%;
+    color: rgb(161, 157, 157);
+}
+.myprocess h1{
+    margin-top: 0%;
+   color: rgb(91, 94, 80);
+   font-weight: 900;
+}
+.myprocess_right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px ;
+    font-weight: 600;
+}
+.myprocess_right .paper{
+width: 85%;
+color: rgb(179, 113, 113);
+}
+.myprocess_right p{
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media only screen and (max-width: 600px){
+    .myprocess{
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myprocess_right{
+        width: 100%;
+        height: auto;
+    }
+    .myprocess .paper {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    } 
+.myprocess_paper{
+    width: 80%;
+    margin-left: 10%;
+}
+}
