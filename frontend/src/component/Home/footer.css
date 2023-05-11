@@ -5,8 +5,11 @@
     text-align: center;
 }
 .footer p{
-color: rgb(126, 81, 81);
-font-weight: 700;
+    position: relative;
+    top:30%;
+color: #7e5151;
+font-weight: 900;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: large;
+font-size: x-large;
+
 }
