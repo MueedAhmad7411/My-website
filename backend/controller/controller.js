@@ -19,6 +19,24 @@ exports.usercomment=async(req,res)=>{
             success:false,
             message:error.message
          })
-    }
-    
+    };
 };
+
+exports.allcomments=async(req,res)=>{
+    try{
+    const allmessage=await Comment.find();
+    if(!allmessage){
+        res.status(400).json({
+            message:"not commnts available"
+        })
+    }else(
+        res.status(200).json({
+            success:true,
+            Allcomments:allmessage
+        })
+    )}catch(error){
+        res.status(500).json({
+            message:error.message
+        })
+    }
+}

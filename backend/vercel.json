@@ -1,7 +1,7 @@
 {
     "version":2,
     "name":"my-website",
-    "build":"index.js",
+    "build":"node index.js",
     "routes":[
         {
         "src":"/(.*)",
