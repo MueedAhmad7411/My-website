@@ -9,7 +9,6 @@ import {SiWhatsapp} from "react-icons/si";
 const Contact=()=> {
   return (
     <div className='main'>
-      <CssBaseline />
       <Container>
         <Box sx={{ bgcolor: '#cfe8fc', height: '70vh',borderRadius:"10px"}} >
             <div className='contact'>
