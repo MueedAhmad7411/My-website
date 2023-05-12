@@ -18,11 +18,11 @@ const Contact=()=> {
                 <h1>Got a Project? Lets Talk!</h1>
                 </div>
                 <div className='email'>
-                <MdMarkEmailRead className="email_icon" style={{fontSize:"5vh" ,marginLeft:"15%"}}></MdMarkEmailRead>
+                <MdMarkEmailRead className="email_icon" style={{fontSize:"5vh" }}></MdMarkEmailRead>
                 <p>Mueed_azhar@yahoo.com</p>
                 </div>
                 <div className='email'>
-                <SiWhatsapp className='whatsapp_icon' style={{fontSize:"5vh" ,marginLeft:"25%"}}></SiWhatsapp>
+                <SiWhatsapp className='whatsapp_icon' style={{fontSize:"5vh" }}></SiWhatsapp>
                 <p>923007411312</p>
                 </div>
                 </div>
